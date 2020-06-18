@@ -1,0 +1,157 @@
+
+body{
+
+	background-size:cover;
+text-align: center;
+padding: 0;
+margin: 0;
+background-color: #e1dcc5;
+font-family: 'lora',serif;
+}
+.as{
+  color:#99b898;
+}
+ .logo{
+   float:left;
+   height:inherit;
+   margin-left: 10px;
+
+}
+
+
+/*header files*/
+
+header .container{
+  background-color: #008489;
+  height:66px;
+position :relative;
+
+}
+header .logo{
+   float:left;
+
+   height:inherit;
+   margin-left: 10px;
+
+}
+.logo-text
+{margin:8px;
+ font-family: 'candal',serif;
+}
+/*to make all words in white from header*/
+header *{
+  color:white;
+}*
+
+
+
+
+/*dropdown*/
+
+.menu-bar
+{width:100%;
+
+	 height:inherit;
+	 position :relative;
+
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style:none;
+
+
+}
+.menu-bar ul li
+{
+	width:auto;
+	margin:5px;
+	padding:5px;
+ height:inherit;
+
+}
+.menu-bar ul li:hover
+{background-color: #99b898;
+	border-radius: 8px;
+	position:relative;
+
+}
+.menu-bar ul li a
+{	text-decoration:none;}
+
+/*drop down in the genere*/
+.sub-menu
+{display:none;
+	position:absolute;
+}
+
+.menu-bar ul li:hover .sub-menu
+{
+
+	display:block;
+	margin:10px;
+	background-color: #008489;
+border-radius: 8px;
+	position: absolute;
+}
+
+/*quate*/
+.qua table{border-radius: 10px;
+
+  margin:auto;
+}
+.tex{
+  width:120px;
+  height:auto;
+
+
+  text-align: center;
+  border-radius:8px;
+  background-color: #16817a;
+}
+
+/*gen container*/
+.gtitle{
+  color:white;
+
+  background-color: #00909e;
+  border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer----*/
+
+.footer{
+  background-color:#85a392;
+}
+.footer thead tr{
+  color:white;
+}
+.contact{
+  display: inline-flex;
+}
+.fb{
+  font-size: 30px;
+  color:steelblue;
+}
+td a{
+  color:#900c3f;
+}

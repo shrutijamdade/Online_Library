@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Online library</title>
+  <link rel="stylesheet" href="sty.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div class="drop-down">
+    <div class="upper-title">
+      <div class="flex-container">
+
+        <div>Home<i class="fa fa-home"></i></div>
+        <div>Gener<i class="fa fa-bars"></i>
+          
+
+          
+
+
+        </div>
+        <div>about<i class="fa fa-info-circle" aria-hidden="true"></i></div>
+
+        <div>login</div>
+        <div>signup</div>
+
+
+      </div>
+
+      <!--for search box-->
+      <div class="search-box">
+        <form class="qw" action="">
+
+          <input type="text" placeholder="Search.." name="search">
+
+
+          <button class="search">⌕</button>
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!--most visited boks-->
+
+
+
+  <div class="body-pag">
+
+    <div class="books-love">
+
+      <p><b> Most Popular</b></p>
+
+    </div>
+
+    <table cellspacing="2px">
+      <tr>
+        <td>
+          <img src="our.jpg" style="width:200px ; height:300px; margin:5px">
+
+        </td>
+        <td>
+          <a href="https://archive.org/stream/davincicodenovel0000brow#page/n1/mode/2up" ><img src="da.jpg" style="width:200px ; height:300px;margin:5px"></a>
+        </td>
+
+        <td>
+          <a href="his.pdf"><img src="meluha.jpg" style="width:200px ; height:300px;margin:5px"></a>
+
+        </td>
+        <td>
+          <a href="his.pdf"><img src="IT.jpg" style="width:200px ; height:300px;margin:5px"></a>
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Borrow</button>
+        </td>
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Borrow</button>
+        </td>
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Borrow</button>
+        </td>
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Borrow</button>
+        </td>
+
+
+      </tr>
+
+    </table>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <!--for romance novel-->
+
+  <div class="body-rom">
+    <h2 class="r-title">Romanic Novels❤ </h2>
+
+
+    <table>
+      <tr>
+
+        <td>
+          <img src="mev.png" style="width:200px ; height:300px; margin:5px">
+        </td>
+        <td>
+          <img src="not.jpg" style="width:200px ; height:300px; margin:5px">
+        </td>
+        <td>
+          <img src="the.jpg" style="width:200px ; height:300px; margin:5px">
+        </td>
+        <td>
+          <img src="fau.jpg" style="width:200px ; height:300px; margin:5px">
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Read</button>
+        </td>
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Read</button>
+        </td>
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Read</button>
+        </td>
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Read</button>
+        </td>
+
+
+
+      </tr>
+    </table>
+
+
+  </div>
+
+  <!--Horror-->
+
+
+  <div class="hor-body">
+
+    <h2 class="ho-ti">Horror</h2>
+
+    <table>
+      <tr>
+        <td>
+          <img src="pet.jpg" style="width:200px ; height:300px; margin:5px">
+        </td>
+        <td>
+          <img src="mr.jpg" style="width:200px ; height:300px; margin:5px">
+        </td>
+        <td>
+          <img src="thegirl.jpg" style="width:200px ; height:300px; margin:5px">
+        </td>
+        <td>
+          <img src="it.jpg" style="width:200px ; height:300px; margin:5px">
+        </td>
+      </tr>
+      <tr>
+
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Read</button>
+        </td>
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Read</button>
+        </td>
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Read</button>
+        </td>
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Read</button>
+        </td>
+      </tr>
+
+    </table>
+  </div>
+
+
+  <!--KIDS BOOK-->
+  <div class="kid-body">
+
+    <h2 class="kids">Kids-books</h2>
+
+    <table>
+      <tr>
+        <td>
+          <img src="amulet.jpg" style="width:200px ; height:300px; margin:5px">
+        </td>
+        <td>
+          <img src="wimpy.jpg" style="width:200px ; height:300px; margin:5px">
+        </td>
+        <td>
+          <img src="simon.jpg" style="width:200px ; height:300px; margin:5px">
+        </td>
+        <td>
+          <img src="sele.jpg" style="width:200px ; height:300px; margin:5px">
+        </td>
+      </tr>
+      <tr>
+
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Read</button>
+        </td>
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Read</button>
+        </td>
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Read</button>
+        </td>
+        <td>
+          <button class="lo" onclick="window.location.href='his.pdf'">Read</button>
+        </td>
+      </tr>
+
+    </table>
+
+
+  </div>
+
+
+  <!--Footer-->
+
+
+  <div class="footer">
+    <hr>
+    <div class="table">
+
+
+      <table cellspacing="20px">
+
+        <thead>
+          <tr>
+            <th>Open Library</th>
+            <th>Discover</th>
+            <th>Develop</th>
+            <th>Help</th>
+          </tr>
+        </thead>
+        <tr>
+          <td><a href="#">vision</a></td>
+          <td><a href="#">Home</a></td>
+          <td><a href="#">Development Center</a></td>
+          <td><a href="#">Help Center</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Volunteer</a></td>
+          <td><a href="#">Books</a></td>
+          <td><a href="#">API Documentation</a></td>
+          <td><a href="#">Report A Problem</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Terms of Service</a></td>
+          <td><a href="#">Subjects</a></td>
+          <td><a href="#">Add a Book</a></td>
+          <td><a href="#">Suggesting Edits</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">Donate</a></td>
+          <td><a  href="#">Return to Top</a></td>
+          <td><a href="#" >Writing Bots</a></td>
+
+        </tr>
+
+      </table>
+    </div>
+
+  </div>
+
+
+
+
+</body>
+
+</html>

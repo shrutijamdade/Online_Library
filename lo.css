@@ -1,0 +1,43 @@
+body{background-color:#e1dcc5;
+
+}
+.outer
+{
+position:relative;
+ width: 960px;
+  height:auto;
+
+margin:auto;
+
+}
+.tit{
+  width: 960px;
+  height:20px;
+background-color:steelblue;
+margin:auto;
+
+
+}
+.ad{
+  color:red;
+}
+
+.main-body
+{
+  background-color: white;
+  width:960px;
+  height:auto;
+  margin:0 auto;
+  position: absolute;
+}
+.main-body ,h1,h2,h3,h5{color:#666;
+  font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;
+  font-weight:600;
+}
+
+.fo{
+  margin:25px;
+}
+.s{
+  color:steelblue;
+}

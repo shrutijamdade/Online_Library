@@ -1,0 +1,200 @@
+
+
+body{
+	background-color:#f0daa4;
+	background-size:cover;
+
+}
+.drop-down{
+	display:inline-flex;
+}
+.flex-container
+{
+display:inline-flex;
+background-color:SteelBlue;
+	border-radius:15px;
+  color:white;
+  position:relative;
+  margin-left:300px;
+width: 900px;
+
+
+}
+
+.flex-container> div{
+
+  background-color: steelblue;
+  margin: 30px;
+  padding: 0;
+  font-size: 20px;
+	cursor:pointer;
+}
+.flex-container> div:hover{
+  background:lightblue;
+	border-radius:8px;
+}
+
+/*dropdown*/
+.sub-menu{display:none;}
+
+
+.upper-title
+{
+	position:relative;
+}
+/* for search box*/
+
+
+
+.search-box
+{display:block;
+
+    padding: 0;
+position:absolute;
+margin-top: 25px;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-left: 980px;
+
+
+}
+.qw
+{
+	margin-top: 5px;
+}
+
+.search
+{
+	cursor:pointer;
+}
+.search:hover{
+	background:lightblue;
+}
+
+
+/*lower body*/
+
+.body-pag{
+	width:900px;
+	height:auto;
+	background-color: #cceabb;
+	margin-left: 300px;
+    margin-top: 4px;
+		border-width: 2px;
+		border-radius: 15px;
+}
+/*first title*/
+.books-love p
+{   background-color:lightBlue;
+
+		 	width:999px;
+     width: 100%;
+
+	border-radius:15px;
+	text-align:left;
+	color:black;
+	margin:20px auto 30px;
+	padding:8px;
+}
+.gallery img
+{width:230px ;
+	display:inline-flex;
+	 height:300px;
+	margin:5px}
+
+.lo
+	{
+	    width: 200px;
+	    height: 33px;
+	    border-radius: 8px;
+	background-color:#10375c;
+	color:white;
+	text-align: center;
+	margin-left: 2px;
+	cursor: pointer;
+	}
+
+/*   Romantic*/
+
+
+.body-rom
+{width:900px;
+	height:auto;
+	background-color:#b49c73;
+margin-left: 300px;
+border-width:2px;
+border-radius: 5px;
+
+
+
+}
+
+.r-title
+{
+	width:900px;
+	height:auto;
+	background-color: pink;
+	border-width:1px;
+	border-radius: 9px;
+
+}
+
+
+
+/*Horror*/
+.hor-body
+{width:900px;
+	height:auto;
+	background-color:#b49c73;
+margin-left: 300px;
+border-width:2px;
+border-radius: 5px;
+
+
+}
+.ho-ti
+{width:900px;
+height:auto;
+background-color: pink;
+border-width:1px;
+border-radius: 9px;
+
+}
+
+
+/*kids books*/
+.kid-body
+{
+	width:900px;
+		height:auto;
+		background-color:#b49c73;
+	margin-left: 300px;
+	border-width:2px;
+	border-radius: 5px;
+
+}
+
+.kids{
+	width:900px;
+	height:auto;
+	background-color: pink;
+	border-width:1px;
+	border-radius: 9px;
+}
+
+.footer
+{
+	width:100%;
+		height:auto;
+		background-color:white;
+
+	border-width:2px;
+	border-radius: 5px;
+	position:relative;
+
+}
+.table
+{
+	margin-left: 300px;
+}
